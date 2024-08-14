@@ -3,7 +3,7 @@ description: A versatile Flutter package that allows you to easily integrate a Y
 version: 0.1.1
 homepage: https://github.com/shoyabsiddique/youtube_video_player
 repository: https://github.com/shoyabsiddique/youtube_video_player
-publish_to: null
+# publish_to: null
 screenshots:
   - description: "Video player for youtube link"
     path: screenshot.png
@@ -19,16 +19,16 @@ dependencies:
   flutter_svg: ^2.0.9
   get: ^4.6.6
   http: ^1.1.0
-  screen_brightness: ^0.2.2+1
-  subtitle:
+  screen_brightness: ^1.0.1
+  subtitle: ^0.1.0-beta.3
   video_player: ^2.8.1
-  wakelock: ^0.6.2
+  wakelock_plus: ^1.2.8
   youtube_explode_dart: ^2.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
